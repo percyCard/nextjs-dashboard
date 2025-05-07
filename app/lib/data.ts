@@ -8,7 +8,6 @@ import {
   Revenue,
 } from './definitions';
 import { formatCurrency } from './utils';
-import postgres from 'postgres';
 
 export async function fetchRevenue() {
   try {
